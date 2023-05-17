@@ -1,0 +1,42 @@
+header {
+    width: 1280px;
+  display: flex;
+  justify-content: right;
+}
+.header {
+  width: 195px;
+  display: flex;
+  /* display: inline-block; */
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+.header i {
+    font-size: 22px;
+}
+.header button {
+    width: 32px;
+    height: 32px;
+    border: none;
+    background-color: #fff;
+    border-radius: 16px;
+    cursor: pointer;
+}
+.header .B_login {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    padding: 0 10px 0 0;
+}
+.header .login_BG {
+    display: inline-block;
+}
+.header .login_BG img{
+    display: block;
+}
+.header .B_login i {
+    font-size: 30px;
+    position: absolute;
+    margin-top: 24px;
+    margin-left: 15px;
+}
