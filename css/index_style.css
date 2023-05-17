@@ -1,42 +1,100 @@
+/*#region header*/
 header {
-    width: 1280px;
   display: flex;
   justify-content: right;
 }
 .header {
   width: 195px;
   display: flex;
-  /* display: inline-block; */
   justify-content: space-between;
   align-items: center;
   z-index: 100;
 }
 .header i {
-    font-size: 22px;
+  font-size: 22px;
+  margin-top: 10px;
 }
 .header button {
-    width: 32px;
-    height: 32px;
-    border: none;
-    background-color: #fff;
-    border-radius: 16px;
-    cursor: pointer;
+  width: 32px;
+  height: 32px;
+  border: none;
+  background-color: #fff;
+  border-radius: 16px;
+  cursor: pointer;
+  filter: drop-shadow(0px 0px 3px #7e9fac);
 }
-.header .B_login {
-    cursor: pointer;
-    position: relative;
-    display: flex;
-    padding: 0 10px 0 0;
+.header .b_Login {
+  cursor: pointer;
+  position: relative;
+  display: flex;
 }
-.header .login_BG {
-    display: inline-block;
+.header .b_Login_Bg {
+  display: inline-block;
 }
-.header .login_BG img{
-    display: block;
+.header .b_Login_Bg img {
+  display: block;
 }
-.header .B_login i {
-    font-size: 30px;
-    position: absolute;
-    margin-top: 24px;
-    margin-left: 15px;
+.header .b_Login i {
+  font-size: 30px;
+  position: absolute;
+  margin-top: 26px;
+  margin-left: 15px;
 }
+/*#endregion header*/
+/*#region nav*/
+.nav {
+  position: absolute;
+}
+.nav_Bg {
+  width: 124px;
+  margin: 0 0 0 28px;
+  position: relative;
+}
+.nav_Control {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -635px;
+  margin-left: 18px;
+}
+.logo {
+  margin: 0 0 30px 0;
+  cursor: pointer;
+}
+.nav_Control button {
+  border: none;
+  background-color: transparent;
+  margin: 10px 0;
+  cursor: pointer;
+}
+/*#endregion nav*/
+/*#region main*/
+.main {
+  width: 1060px;
+  /* 1200-180 */
+  padding: 0 0 0 180px;
+}
+.slide_Main_Visual {
+  padding: 50px 0 0 0;
+  width: 1020px;
+  height: 440px;
+  margin: auto;
+}
+.main_Visual_Img_Bg {
+  text-align: center;
+  position: relative;
+}
+.main_Visual_Img_Bg img{
+    border-radius: 10px;
+}
+.main_Visual_Img_p img {
+  position: absolute;
+  margin-top: -202px;
+  margin-left: 44px;
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.3));
+}
+.main h1 {
+  text-align: center;
+}
+/*#endregion main*/
