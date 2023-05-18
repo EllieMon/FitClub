@@ -16,23 +16,35 @@
         padding: 0;
       }
       body {
-        width: 1240px;
-        background-attachment: scroll;
-        background-position: top;
-        background-size: auto;
+        width: 1280px;
         position: relative;
         /* font-family: arial,"Microsoft JhengHei","微軟正黑體",sans-serif !important; */
         font-family: "Noto Sans", "Bodoni Moda";
       }
       h1 {
-        font-size: 35pt;
+        font-size: 35px;
         font-weight: bold;
+      }
+      h2 {
+        font-size: 30px;
+        font-weight: bold;
+      }
+      h3 {
+        font-size: 20px;
+        font-weight: bold;
+      }
+      h4 {
+        font-size: 14px;
+        font-weight: bold;
+      }
+      p {
+        font-size: 12px;
       }
     </style>
   </head>
   <body background="img/index/BG.svg">
-    <header>
-      <div class="header">
+    <header class="header">
+      <div class="header_group">
         <button class="b_Message">
           <i class="fa-solid fa-comment-dots fa-lg" style="color: #6ec1c5"></i>
         </button>
@@ -50,29 +62,27 @@
         </div>
       </div>
     </header>
-    <nav>
-      <div class="nav">
-        <div class="nav_Bg">
-          <img src="img/index/nav_BG.svg" alt="nav_bg" />
-          <div class="nav_Control">
-            <div class="logo">
-              <img src="img/index/logo.svg" alt="LOGO" />
-            </div>
-            <button class="b_Index">
-              <img src="img/index/nav_B_index.svg" alt="首頁" />
-            </button>
-            <button class="b_Cookbook">
-              <img src="img/index/nav_B_cookbook.svg" alt="健康食譜" />
-            </button>
-            <button class="b_Sportmenu">
-              <img src="img/index/nav_B_sportsmenu.svg" alt="運動菜單" />
-            </button>
+    <nav class="nav">
+      <div class="nav_Bg">
+        <img src="img/index/nav_BG.svg" alt="nav_bg" />
+        <div class="nav_Control">
+          <div class="logo">
+            <img src="img/index/logo.svg" alt="LOGO" />
           </div>
+          <button class="b_Index">
+            <img src="img/index/nav_B_index.svg" alt="首頁" />
+          </button>
+          <button class="b_Cookbook">
+            <img src="img/index/nav_B_cookbook.svg" alt="健康食譜" />
+          </button>
+          <button class="b_Sportmenu">
+            <img src="img/index/nav_B_sportsmenu.svg" alt="運動菜單" />
+          </button>
         </div>
       </div>
     </nav>
-    <main>
-      <div class="main">
+    <main class="main">
+      <div class="main_group">
         <div class="slide_Main_Visual">
           <div class="main_Visual_Img_Bg">
             <img src="img/index/main_Visual_Img_Bg.svg" alt="主視圖" />
@@ -84,5 +94,27 @@
         <h1>Fit Club<br />一個關心你健康的平台</h1>
       </div>
     </main>
+    <article class="personal">
+      <div class="personal_Group">
+        <div class="personal_Main pic"></div>
+        <div class="personal_decorate pic"></div>
+        <div class="personal_cal pic"></div>
+        <div class="personal_sleep pic"></div>
+        <div class="personal_step pic"></div>
+        <div class="personal_sport pic"></div>
+        <div class="personal_title title">
+          <h2>個人記錄</h2>
+          <h4>
+            觀察你的體態<br />
+            記錄你的健康
+          </h4>
+        </div>
+        <div class="personal_p p">
+          <p>
+            可自主手動輸入，或是透過連結手機軟體同步你的今日健康數據，觀察你體重的趨勢圖，了解你這個月每天的步數變化，記錄下你每天進食的餐點營養成分、卡路里。讓你輕鬆的更了解自己。
+          </p>
+        </div>
+      </div>
+    </article>
   </body>
 </html>

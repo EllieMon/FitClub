@@ -3,18 +3,20 @@ header {
   display: flex;
   justify-content: right;
 }
-.header {
+.header_group {
+  width: 1280px;
   width: 195px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 100;
+  padding: 0 20px 0 0;
 }
-.header i {
+.header_group i {
   font-size: 22px;
   margin-top: 10px;
 }
-.header button {
+.header_group button {
   width: 32px;
   height: 32px;
   border: none;
@@ -23,18 +25,18 @@ header {
   cursor: pointer;
   filter: drop-shadow(0px 0px 3px #7e9fac);
 }
-.header .b_Login {
+.header_group .b_Login {
   cursor: pointer;
   position: relative;
   display: flex;
 }
-.header .b_Login_Bg {
+.header_group .b_Login_Bg {
   display: inline-block;
 }
-.header .b_Login_Bg img {
+.header_group .b_Login_Bg img {
   display: block;
 }
-.header .b_Login i {
+.header_group .b_Login i {
   font-size: 30px;
   position: absolute;
   margin-top: 26px;
@@ -70,9 +72,9 @@ header {
 }
 /*#endregion nav*/
 /*#region main*/
-.main {
-  width: 1060px;
-  /* 1200-180 */
+.main_group {
+  width: 1100px;
+  /* 1280-180 */
   padding: 0 0 0 180px;
 }
 .slide_Main_Visual {
@@ -94,7 +96,11 @@ header {
   margin-left: 44px;
   filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.3));
 }
-.main h1 {
+.main_group h1 {
   text-align: center;
 }
 /*#endregion main*/
+/*#region personal*/
+
+
+/*#endregion personal*/
