@@ -11,6 +11,7 @@ header {
   align-items: center;
   z-index: 100;
   padding: 0 20px 0 0;
+  position: fixed;
 }
 .header_group i {
   font-size: 22px;
@@ -45,7 +46,8 @@ header {
 /*#endregion header*/
 /*#region nav*/
 .nav {
-  position: absolute;
+  position: fixed;
+  top: 50px;
 }
 .nav_Bg {
   width: 124px;
@@ -72,28 +74,31 @@ header {
 }
 /*#endregion nav*/
 /*#region main*/
+.main {
+  margin: 0 0 200px 0;
+}
 .main_group {
-  width: 1100px;
-  /* 1280-180 */
-  padding: 0 0 0 180px;
+  padding: 0 40px 0 180px;
 }
 .slide_Main_Visual {
+  display: flex;
+  justify-content: center;
   padding: 50px 0 0 0;
   width: 1020px;
   height: 440px;
   margin: auto;
+  position: relative;
 }
 .main_Visual_Img_Bg {
   text-align: center;
-  position: relative;
 }
-.main_Visual_Img_Bg img{
-    border-radius: 10px;
+.main_Visual_Img_Bg img {
+  border-radius: 10px;
 }
 .main_Visual_Img_p img {
   position: absolute;
-  margin-top: -202px;
-  margin-left: 44px;
+  margin-top: 180px;
+  margin-left: -890px;
   filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.3));
 }
 .main_group h1 {
@@ -101,6 +106,57 @@ header {
 }
 /*#endregion main*/
 /*#region personal*/
-
-
+.personal_Group {
+  display: flex;
+  justify-content: center;
+  padding: 0 40px 0 180px;
+  display: grid;
+  grid-template: repeat(3, 146px) / repeat(6, 146px);
+  gap: 5px;
+}
+.personal_Main {
+  grid-area: 1/1/4/4;
+  position: relative;
+  margin-left: auto;
+}
+.personal_Decorate {
+  position: absolute;
+  margin-top: -230px;
+  margin-left: -70px;
+}
+.personal_Cal {
+  grid-area: 2/6/3/7;
+  margin: 8px;
+}
+.personal_Sleep {
+  grid-area: 3/4/4/5;
+  margin: 8px;
+}
+.personal_Step {
+  grid-area: 3/5/4/6;
+  margin: 8px;
+}
+.personal_Sport {
+  grid-area: 3/6/4/7;
+  margin: 8px;
+}
+.personal_Title {
+  grid-area: 1/4/2/7;
+  /* text-align: center; */
+  padding: 0 20px;
+}
+.personal_Title_Group{
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+.personal_Title h2 {
+  line-height: 60px;
+  margin: 0 0 0 5px;
+}
+.personal_P {
+  grid-area: 2/4/3/6;
+  padding: 0 20px;
+  line-height: 26px;
+}
 /*#endregion personal*/
