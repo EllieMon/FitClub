@@ -1,7 +1,18 @@
+.visible_Range {
+  width: 1280px;
+  height: 5416px;
+  margin: auto;
+  display: flex;
+}
 /*#region header*/
 header {
+  width: 1280px;
+  margin: auto;
   display: flex;
   justify-content: right;
+  position: sticky;
+  height: 52px;
+  top: 0px;
 }
 .header_group {
   width: 1280px;
@@ -11,7 +22,6 @@ header {
   align-items: center;
   z-index: 100;
   padding: 0 20px 0 0;
-  position: fixed;
 }
 .header_group i {
   font-size: 22px;
@@ -45,9 +55,12 @@ header {
 }
 /*#endregion header*/
 /*#region nav*/
-.nav {
-  position: fixed;
+.nav_Group{
+  width: 180px;
+  height: 762px;
+  position: sticky;
   top: 50px;
+  z-index: 99;
 }
 .nav_Bg {
   width: 124px;
@@ -74,34 +87,27 @@ header {
 }
 /*#endregion nav*/
 /*#region main*/
-.main {
-  margin: 0 0 200px 0;
+.main{
+  width: 1100px;
+  height: 100%;
 }
-.main_group {
-  padding: 0 40px 0 180px;
-}
-.slide_Main_Visual {
+.md_group {
   display: flex;
+}
+.Md_Visual_slide {
+  padding: 100px 40px 100px 180px;
+  /* display: flex; */
   justify-content: center;
-  padding: 50px 0 0 0;
   width: 1020px;
   height: 440px;
   margin: auto;
   position: relative;
 }
-.main_Visual_Img_Bg {
+.md_Visual_Img {
   text-align: center;
 }
-.main_Visual_Img_Bg img {
-  border-radius: 10px;
-}
-.main_Visual_Img_p img {
-  position: absolute;
-  margin-top: 180px;
-  margin-left: -890px;
-  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.3));
-}
-.main_group h1 {
+.md_title h1 {
+  margin: 50px 0 0 0;
   text-align: center;
 }
 /*#endregion main*/
@@ -145,7 +151,7 @@ header {
   /* text-align: center; */
   padding: 0 20px;
 }
-.personal_Title_Group{
+.personal_Title_Group {
   height: 60px;
   display: flex;
   align-items: center;
