@@ -1,4 +1,3 @@
-
 .visible_Range {
   width: 1280px;
   margin: auto;
@@ -11,7 +10,7 @@ img {
   display: block;
 }
 
-/*#region header*/ 
+/*#region header*/
 header {
   width: 1280px;
   height: 51px;
@@ -44,16 +43,54 @@ header {
   cursor: pointer;
   filter: drop-shadow(0px 0px 3px #7e9fac);
 }
-.header_group .b_Login {
+.b_Login {
   cursor: pointer;
   position: relative;
-  display: flex;
 }
-.header_group .b_Login i {
+.b_Login_Bg {
+  background-color: #6ec1c5;
+  border-radius: 0 0 10px 10px;
+  width: 59px;
+  height: 51px;
+}
+.b_Login i {
   font-size: 30px;
   position: absolute;
-  margin-top: 26px;
+  margin-top: -25px;
   margin-left: 15px;
+}
+.b_Setting .fa-gear {
+  color: #6ec1c5;
+}
+.b_System_info .fa-bell {
+  color: #6ec1c5;
+}
+.b_Message .fa-comment-dots {
+  color: #6ec1c5;
+}
+.b_Login .fa-circle-user {
+  color: #ffffff;
+}
+.b_System_info:hover,
+.b_Setting:hover,
+.b_Message:hover {
+  background-color: #6ec1c5;
+}
+.b_Login:hover .b_Login_Bg {
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+.b_Message:hover .fa-comment-dots {
+  color: #fff;
+}
+.b_System_info:hover .fa-bell {
+  color: #fff;
+}
+.b_Setting:hover .fa-gear {
+  color: #fff;
+}
+.b_Login:hover .fa-circle-user {
+  color: #6ec1c5;
 }
 /*#endregion header*/
 /*#region nav*/
@@ -81,12 +118,54 @@ header {
   margin: 0 0 30px 0;
   cursor: pointer;
 }
-.nav_Control button {
+.b_Index,
+.b_Cookbook,
+.b_Sportmenu {
+  height: 70px;
+  width: 70px;
+  background-color: #6ec1c5;
   border: none;
-  background-color: transparent;
-  margin: 10px 0;
-  cursor: pointer;
+  margin: 2px;
 }
+.b_Index i,
+.b_Cookbook i,
+.b_Sportmenu i {
+  display: block;
+  width: 40px;
+  height: 30px;
+  line-height: 30px;
+  margin: auto;
+}
+.b_Index p,
+.b_Cookbook p,
+.b_Sportmenu p {
+  display: block;
+  padding: 3px 0 0 0;
+  color: #fff;
+}
+.fa-house,
+.fa-kitchen-set,
+.fa-dumbbell{
+  color: #ffff;
+}
+.b_Index:hover,
+.b_Cookbook:hover,
+.b_Sportmenu:hover{
+  background-color: #EFF3F6;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+.b_Index:hover p,
+.b_Cookbook:hover p,
+.b_Sportmenu:hover p{
+  color: #6ec1c5;
+}
+.b_Index:hover i,
+.b_Cookbook:hover i,
+.b_Sportmenu:hover i{
+  color: #6ec1c5;
+}
+
 /*#endregion nav*/
 .main {
   width: 1100px;
@@ -325,7 +404,7 @@ header {
   display: flex;
   align-items: center;
 }
-.cook_sport_P p{
+.cook_sport_P p {
   padding: 20px 50px;
   line-height: 26px;
 }
@@ -336,15 +415,54 @@ header {
 /*#region cook_sport*/
 .joinus {
   width: 1100px;
-  padding: 0px 0px 250px 0;
+  padding: 0px 0px 50px 0;
 }
-.joinus_Decorate{
+.joinus_Decorate {
   margin: auto;
   width: 710px;
 }
-.joinus_Title{
+.joinus_Text {
   text-align: center;
-  padding: 40px;
+  padding: 20px;
 }
-
+.joinus_Text img {
+  margin: auto;
+  padding: 20px;
+}
+.joinus_a {
+  width: 160px;
+  height: 25px;
+  margin: auto;
+  margin-top: 10px;
+  background-color: #6ec1c5;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+.joinus_a a {
+  text-decoration: none;
+  color: #fff;
+}
+.joinus_a i {
+  line-height: 25px;
+  padding: 0 0 0 3px;
+}
+.joinus_a:hover {
+  background-color: #ffffff;
+}
+.joinus_a:hover a {
+  color: #6ec1c5;
+}
 /*#endregion cook_sport*/
+/*#region footer*/
+.footer {
+  margin: auto;
+  padding: 0 0 5px 0;
+}
+.footer p {
+  text-align: center;
+  font-size: 12px;
+  color: #706c65;
+}
+/*#endregion footer*/
