@@ -1,18 +1,26 @@
+
 .visible_Range {
   width: 1280px;
-  height: 5416px;
   margin: auto;
   display: flex;
 }
-/*#region header*/
+.big_shadow {
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.3));
+}
+img {
+  display: block;
+}
+
+/*#region header*/ 
 header {
   width: 1280px;
+  height: 51px;
   margin: auto;
   display: flex;
   justify-content: right;
   position: sticky;
-  height: 52px;
   top: 0px;
+  z-index: 100;
 }
 .header_group {
   width: 1280px;
@@ -41,12 +49,6 @@ header {
   position: relative;
   display: flex;
 }
-.header_group .b_Login_Bg {
-  display: inline-block;
-}
-.header_group .b_Login_Bg img {
-  display: block;
-}
 .header_group .b_Login i {
   font-size: 30px;
   position: absolute;
@@ -55,7 +57,7 @@ header {
 }
 /*#endregion header*/
 /*#region nav*/
-.nav_Group{
+.nav_Group {
   width: 180px;
   height: 762px;
   position: sticky;
@@ -86,36 +88,42 @@ header {
   cursor: pointer;
 }
 /*#endregion nav*/
-/*#region main*/
-.main{
+.main {
   width: 1100px;
-  height: 100%;
+  padding: 40px 0px 0px 0px;
 }
-.md_group {
-  display: flex;
+/*#region md*/
+.md_Group {
+  margin: auto;
 }
 .Md_Visual_slide {
-  padding: 100px 40px 100px 180px;
-  /* display: flex; */
-  justify-content: center;
   width: 1020px;
   height: 440px;
   margin: auto;
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .md_Visual_Img {
   text-align: center;
 }
+.md_Visual_Img img {
+  display: block;
+  margin: auto;
+}
 .md_title h1 {
-  margin: 50px 0 0 0;
+  margin: 0 0 250px 0;
   text-align: center;
 }
-/*#endregion main*/
+/*#endregion md*/
 /*#region personal*/
+.personal {
+  width: 1100px;
+  padding: 0px 0px 250px 0;
+}
 .personal_Group {
-  display: flex;
+  width: 100%;
   justify-content: center;
-  padding: 0 40px 0 180px;
   display: grid;
   grid-template: repeat(3, 146px) / repeat(6, 146px);
   gap: 5px;
@@ -124,6 +132,7 @@ header {
   grid-area: 1/1/4/4;
   position: relative;
   margin-left: auto;
+  padding: 0 20px 0 0;
 }
 .personal_Decorate {
   position: absolute;
@@ -166,3 +175,176 @@ header {
   line-height: 26px;
 }
 /*#endregion personal*/
+/*#region competition*/
+.competition {
+  width: 1100px;
+  padding: 0px 0px 375px 0;
+}
+.competition_Group {
+  width: 100%;
+  justify-content: center;
+  display: grid;
+  grid-template: repeat(2, 219px) / repeat(2, 438px);
+  gap: 5px;
+  position: relative;
+}
+.competition_Main {
+  grid-area: 1/2/3/3;
+}
+.competition_Decorate {
+  position: absolute;
+  margin-top: 306px;
+  margin-left: 294px;
+}
+.competition_Title {
+  grid-area: 1/1/2/2;
+  padding: 0 50px;
+}
+.competition_Title_Group {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 90px 0 0 0;
+}
+.competition_Title h2 {
+  line-height: 60px;
+  margin: 0 0 0 5px;
+}
+.competition_P {
+  grid-area: 2/1/3/2;
+  padding: 0 50px;
+  line-height: 26px;
+}
+/*#endregion competition*/
+/*#region together*/
+.together {
+  width: 1100px;
+  padding: 0px 0px 300px 0;
+}
+.together_Group {
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  display: grid;
+  grid-template: repeat(2, 276px) / repeat(2, 380px);
+  gap: 20px;
+  position: relative;
+}
+.together_Pic1 {
+  grid-area: 1/1/2/2;
+  overflow: hidden;
+}
+.together_Pic2 {
+  grid-area: 2/1/3/2;
+  overflow: hidden;
+}
+.together_Pic3 {
+  grid-area: 2/2/3/3;
+  overflow: hidden;
+}
+.together_Text {
+  grid-area: 1/2/2/3;
+}
+.together_Decorate1 {
+  position: absolute;
+  margin-top: 437px;
+  margin-left: 110px;
+}
+.together_Decorate2 {
+  position: absolute;
+  margin-top: 144px;
+  margin-left: 844px;
+}
+.together_Text {
+  width: 300px;
+  margin: auto;
+}
+.together_Title {
+  padding: 0px 0 25px 0;
+}
+.together_Title_Group {
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+.together_Title h2 {
+  line-height: 60px;
+  margin: 0 0 0 5px;
+}
+.together_P {
+  padding: 20px 50px 0 0;
+  line-height: 26px;
+}
+.together_Group .pic {
+  border-radius: 20px;
+}
+/*#endregion together*/
+/*#region cook_sport*/
+.cook_sport {
+  width: 1100px;
+  padding: 0px 0px 250px 0;
+}
+.cook_sport_Group {
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  display: grid;
+  grid-template: repeat(2, 320px) / repeat(2, 436px);
+  gap: 20px;
+  position: relative;
+}
+.cook_sport_Pic1 {
+  grid-area: 2/1/3/2;
+  overflow: hidden;
+}
+.cook_sport_Pic2 {
+  grid-area: 1/2/2/3;
+  overflow: hidden;
+}
+.cook_sport_Decorate1 {
+  position: absolute;
+  margin-top: 176px;
+  margin-left: 376px;
+}
+.cook_sport_Decorate2 {
+  position: absolute;
+  margin-top: 527px;
+  margin-left: 481px;
+}
+.cook_sport_Text {
+  width: 300px;
+  margin: auto;
+}
+.cook_sport_Title {
+  grid-area: 1/1/2/2;
+  padding: 50px 0 0 100px;
+}
+.cook_sport_Title1,
+.cook_sport_Title2 {
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+.cook_sport_P p{
+  padding: 20px 50px;
+  line-height: 26px;
+}
+.cook_sport_Group .pic {
+  border-radius: 20px;
+}
+/*#endregion cook_sport*/
+/*#region cook_sport*/
+.joinus {
+  width: 1100px;
+  padding: 0px 0px 250px 0;
+}
+.joinus_Decorate{
+  margin: auto;
+  width: 710px;
+}
+.joinus_Title{
+  text-align: center;
+  padding: 40px;
+}
+
+/*#endregion cook_sport*/
