@@ -4,5 +4,51 @@
         "Moda",
         "Sportmenu",
         "Tiba"
-    ]
+    ],
+    "todo-tree.general.tags": [
+        "BUG",
+        "HACK",
+        "FIXME",
+        "TODO",
+        "XXX",
+        "[ ]",
+        "[x]",
+        "NOTE"
+    ],
+    "todo-tree.highlights.defaultHighlight": {},
+    "todo-tree.highlights.customHighlight": {
+        "BUG": {
+            "icon": "bug""foreground": "white",
+            "foreground": "transparant",
+            "background": "#ff2D00",
+            "iconColour": "#FF2D00"
+        },
+        "TODO": {
+            "icon": "tasklist",
+            "foreground": "transparant",
+            "background": "#1c5adf",
+            "iconColour": "#1c5adf"
+        },
+        "NOTE": {
+            "icon": "note",
+            "foreground": "transparant",
+            "background": "#d1c12b",
+            "iconColour": "#d1c12b"
+        }
+        "HACK": {
+            "icon": "tools"
+        },
+        "FIXME": {
+            "icon": "flame"
+        },
+        "XXX": {
+            "icon": "x"
+        },
+        "[ ]": {
+            "icon": "issue-draft"
+        },
+        "[x]": {
+            "icon": "issue-closed"
+        }
+    }
 }

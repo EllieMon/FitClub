@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/member_index.css" />
+    <title>FitClub_一個關心你健康的平台</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        width: 1280px;
+        font-family: "Noto Sans", "Bodoni Moda";
+        background-repeat: no-repeat;
+      }
+      h1 {
+        font-size: 35px;
+        font-weight: bold;
+      }
+      h2 {
+        font-size: 30px;
+        font-weight: bold;
+      }
+      h3 {
+        font-size: 20px;
+        font-weight: bold;
+      }
+      p {
+        font-size: 14px;
+        color: #706c65;
+      }
+      span {
+        font-size: 14px;
+        color: #706c65;
+      }
+    </style>
+  </head>
+  <body background="img/member_index/Member_index_Bg_img.svg">
+    <header class="header">
+      <div class="header_group">
+        <button class="b_Message">
+          <i class="fa-solid fa-comment-dots fa-lg"></i>
+        </button>
+        <button class="b_System_info">
+          <i class="fa-solid fa-bell fa-lg"></i>
+        </button>
+        <button class="b_Setting">
+          <i class="fa-solid fa-gear fa-lg"></i>
+        </button>
+        <div class="b_Login">
+          <div class="b_Login_Bg pic"></div>
+          <img
+            class="member_shadow"
+            src="img/member_index/competition_Sally_30_pic.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </header>
+    <div class="visible_Range">
+      <nav class="nav_Group">
+        <nav class="nav">
+          <div class="nav_Bg img">
+            <img src="img/index/nav_BG.svg" alt="nav_bg" />
+            <div class="nav_Control">
+              <div class="logo img">
+                <img src="img/index/logo.svg" alt="LOGO" />
+              </div>
+              <button class="b_Index">
+                <i class="fa-solid fa-house fa-2xl"></i>
+                <p>首頁</p>
+              </button>
+              <button class="b_Personal">
+                <i class="fa-solid fa-address-card fa-2xl"></i>
+                <p>個人紀錄</p>
+              </button>
+              <button class="b_Competition">
+                <i class="fa-solid fa-crown fa-2xl"></i>
+                <p>團隊競賽</p>
+              </button>
+              <button class="b_Together">
+                <i class="fa-solid fa-users fa-2xl"></i>
+                <p>揪團動動</p>
+              </button>
+              <button class="b_Cookbook">
+                <i class="fa-solid fa-kitchen-set fa-2xl"></i>
+                <p>健康食譜</p>
+              </button>
+              <button class="b_Sportmenu">
+                <i class="fa-solid fa-dumbbell fa-2xl"></i>
+                <p>運動菜單</p>
+              </button>
+            </div>
+          </div>
+        </nav>
+      </nav>
+      <main class="main">
+        <div class="member_Index">
+          <div class="personal_Data">
+            <img src="img/index/INTRO_personal_cal_img.svg" alt="cal" />
+            <img src="img/index/INTRO_personal_sleep_img.svg" alt="sleep" />
+            <img src="img/index/INTRO_personal_sport_img.svg" alt="sport" />
+            <img src="img/index/INTRO_personal_step_img.svg" alt="step" />
+          </div>
+          <div class="together_Invite">
+            <div class="invite_Bg">
+              <h3>揪團動動</h3>
+              <span class="select_Sport">想揪什麼團呢?</span>
+              <div class="sport_Menu">
+                <button class="sport_Button">
+                  <i class="fa-solid fa-basketball fa-xl"></i>
+                </button>
+                <button class="sport_Button">
+                  <i class="fa-solid fa-baseball-bat-ball fa-xl"></i>
+                </button>
+                <button class="sport_Button">
+                  <i class="fa-solid fa-volleyball fa-xl"></i>
+                </button>
+                <button class="sport_Button">
+                  <i class="fa-solid fa-table-tennis-paddle-ball fa-xl"></i>
+                </button>
+                <button class="sport_Button">
+                  <i class="fa-solid fa-golf-ball-tee fa-xl"></i>
+                </button>
+                <button class="sport_Button">
+                  <i class="fa-solid fa-bowling-ball fa-xl"></i>
+                </button>
+                <button class="sport_Button">
+                  <i class="fa-solid fa-dumbbell fa-xl"></i>
+                </button>
+                <button class="sport_Button">
+                  <i class="fa-solid fa-bicycle fa-xl"></i>
+                </button>
+                <button class="sport_Button">
+                  <i class="fa-solid fa-person-swimming fa-xl"></i>
+                </button>
+                <button class="sport_Button">
+                  <i class="fa-solid fa-person-hiking fa-xl"></i>
+                </button>
+                <button class="sport_Button">
+                  <i class="fa-solid fa-person-skating fa-xl"></i>
+                </button>
+                <button class="sport_Button">
+                  <i class="fa-solid fa-ellipsis fa-xl"></i>
+                </button>
+              </div>
+              <div class="options_Table">
+                <div>
+                  <label>時間:</label>
+                  <input type="datetime-local" name="date" />
+                </div>
+                <div>
+                  <label>運動時長:</label>
+                  <select name="" id="">
+                    <option>請選擇</option>
+                    <option>0~30分鐘</option>
+                    <option>30~60分鐘</option>
+                    <option>1~2小時</option>
+                    <option>2~3小時</option>
+                    <option>3小時以上</option>
+                  </select>
+                </div>
+                <div>
+                  <label>活動場地:</label>
+                  <select name="" id="">
+                    <option>請選擇</option>
+                    <option>室內-付費場地</option>
+                    <option>室內-免費場地</option>
+                    <option>室外-付費場地</option>
+                    <option>室外-免費場地</option>
+                  </select>
+                </div>
+                <div>
+                  <label>場地費用:</label>
+                  <input
+                    class="cost"
+                    type="number"
+                    value="50"
+                    min="0"
+                    max="5000"
+                    step="10"
+                  />/總金額
+                </div>
+                <div>
+                  <label>運動器材:</label>
+                  <select name="" id="">
+                    <option>請選擇</option>
+                    <option>無器材</option>
+                    <option>自備</option>
+                    <option>免費使用</option>
+                    <option>租金使用</option>
+                  </select>
+                </div>
+              </div>
+              <div class="create_a">
+                <a href="#">
+                  建立揪團
+                  <i
+                    class="fa-solid fa-caret-right fa-lg"
+                    style="color: #dbf0f1"
+                  ></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="calendar">
+            <div><img src="img/member_index/calendar.svg" alt="日歷" /></div>
+          </div>
+          <div class="share_Article">
+            <div class="cookbook">
+              <h3>健康食譜</h3>
+              <a class="cookbook_Group" href="#">
+                <div class="cookbook_Pic">
+                  <img
+                    class="member_shadow"
+                    src="img/member_index/cook_headshot1_40_pic.png"
+                    alt=""
+                  />
+                </div>
+                <div class="cookbook_Text">
+                  <span>低脂奶油洋蔥濃湯</span>
+                  <p>#微波爐 #15min #青菜類 #降低膽固醇 #飽足感</p>
+                </div>
+              </a>
+              <a class="cookbook_Group" href="#">
+                <div class="cookbook_Pic">
+                  <img
+                    class="member_shadow"
+                    src="img/member_index/cook_headshot2_40_pic.png"
+                    alt=""
+                  />
+                </div>
+                <div class="cookbook_Text">
+                  <span>酸辣青木瓜沙拉</span>
+                  <p>#免烹煮 #15min #青菜類 #膳食纖維 #清爽開胃</p>
+                </div>
+              </a>
+              <div class="share_a">
+                <a href="#">
+                  閱讀更多
+                  <i class="fa-solid fa-caret-right fa-lg"></i>
+                </a>
+              </div>
+            </div>
+            <div class="sportmenu">
+              <h3>運動菜單</h3>
+              <a class="sportmenu_Group" href="#">
+                <div class="sportmenu_Pic">
+                  <img
+                    class="member_shadow"
+                    src="img/member_index/sport_headshot1_40_pic.png"
+                    alt=""
+                  />
+                </div>
+                <div class="sportmenu_Text">
+                  <span>如何正確地波比跳</span>
+                  <p>#免器材 #30min #室內 #高間歇性運動 #避免運動傷害</p>
+                </div>
+              </a>
+              <a class="sportmenu_Group" href="#">
+                <div class="sportmenu_Pic">
+                  <img
+                    class="member_shadow"
+                    src="img/member_index/sport_headshot2_40_pic.png"
+                    alt=""
+                  />
+                </div>
+                <div class="sportmenu_Text">
+                  <span>自行車100+公里訓練菜單</span>
+                  <p>#自行車 #八周 #間歇訓練 #配速訓練 #堅持耐力</p>
+                </div>
+              </a>
+              <div class="share_a">
+                <a href="#">
+                  閱讀更多
+                  <i class="fa-solid fa-caret-right fa-lg"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <aside class="aside">
+        <div class="personal_Info">
+          <h3>Sally Huang</h3>
+          <p>2023/04/21</p>
+          <div class="info_Group">
+            <div class="info">
+              <p class="info_Text">體重</p>
+              <hr size="1px" align="center" width="100%" />
+              <p class="info_Num">58<span class="info_Unit">kg</span></p>
+            </div>
+            <div class="info">
+              <p class="info_Text">體脂率</p>
+              <hr size="1px" align="center" width="100%" />
+              <p class="info_Num">23<span class="info_Unit">%</span></p>
+            </div>
+            <div class="info">
+              <p class="info_Text">基礎代謝</p>
+              <hr size="1px" align="center" width="100%" />
+              <p class="info_Num">1280<span class="info_Unit">cal</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="competition">
+          <h3>團隊競賽</h3>
+          <p>截止日:2023/06/30<br />目標完成度</p>
+          <div class="competition_Group">
+            <div class="member01">
+              <img
+                class="member_shadow"
+                src="img/member_index/competition_headshot1_40_pic.png"
+                alt=""
+              />
+              <p class="member01_Num">94<span>%</span></p>
+            </div>
+            <div class="member_Group">
+              <div class="member02">
+                <img
+                  class="member_shadow"
+                  src="img/member_index/competition_Sally_30_pic.png"
+                  alt=""
+                />
+                <p class="member_Num">20<span>%</span></p>
+              </div>
+              <div class="member03">
+                <img
+                  class="member_shadow"
+                  src="img/member_index/competition_headshot3_30_pic.png"
+                  alt=""
+                />
+                <p class="member_Num">-15<span>%</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="competition_a">
+            <a href="#">
+              競賽頁面
+              <i
+                class="fa-solid fa-caret-right fa-lg"
+                style="color: #dbf0f1"
+              ></i>
+            </a>
+          </div>
+        </div>
+        <div class="md">
+          <div><img src="img/member_index/md_img.svg" alt="" /></div>
+        </div>
+      </aside>
+    </div>
+    <footer class="footer">
+      <p>
+        本網站為緯育TibaMe前端工程師第102期學員專題作品，僅供學習、展示之用。
+        若有侵權疑慮，請私訊
+        [TibaMe-前端設計工程師養成班]，後續由專人協助處理。
+        <br />2023 © All rights reserved
+      </p>
+    </footer>
+  </body>
+</html>
