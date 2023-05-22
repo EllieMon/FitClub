@@ -126,6 +126,7 @@ header {
   background-color: #6ec1c5;
   border: none;
   margin: 2px;
+  cursor: pointer;
 }
 .b_Index i,
 .b_Cookbook i,
@@ -165,7 +166,23 @@ header {
 .b_Sportmenu:hover i{
   color: #6ec1c5;
 }
-
+.b_Index:focus,
+.b_Cookbook:focus,
+.b_Sportmenu:focus{
+  background-color: #EFF3F6;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+.b_Index:focus p,
+.b_Cookbook:focus p,
+.b_Sportmenu:focus p{
+  color: #6ec1c5;
+}
+.b_Index:focus i,
+.b_Cookbook:focus i,
+.b_Sportmenu:focus i{
+  color: #6ec1c5;
+}
 /*#endregion nav*/
 .main {
   width: 1100px;
@@ -439,10 +456,7 @@ header {
   display: flex;
   justify-content: center;
   color: #fff;
-}
-.joinus_a a {
   text-decoration: none;
-  color: #fff;
 }
 .joinus_a i {
   line-height: 25px;
@@ -451,7 +465,7 @@ header {
 .joinus_a:hover {
   background-color: #ffffff;
 }
-.joinus_a:hover a {
+.joinus_a:hover p {
   color: #6ec1c5;
 }
 /*#endregion cook_sport*/
