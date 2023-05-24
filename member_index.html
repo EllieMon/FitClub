@@ -8,7 +8,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
     />
-    <link rel="stylesheet" href="css/member_index.css" />
+    <link rel="stylesheet" href="css/h.f.n_style.css">
+    <link rel="stylesheet" href="css/member_index_style.css" />
     <title>FitClub_一個關心你健康的平台</title>
     <style>
       * {
@@ -16,8 +17,11 @@
         padding: 0;
       }
       body {
-        width: 1280px;
+        width: 100%;
         font-family: "Noto Sans", "Bodoni Moda";
+        background: url(/img/member_index/member_Index_Bg_img.svg);
+        background-position: top;
+        background-size: 1920px;
         background-repeat: no-repeat;
       }
       h1 {
@@ -54,14 +58,14 @@
         <button class="b_Setting">
           <i class="fa-solid fa-gear fa-lg"></i>
         </button>
-        <div class="b_Login">
+        <a href="index.html" class="b_Login">
           <div class="b_Login_Bg pic"></div>
           <img
             class="member_shadow"
             src="img/member_index/competition_Sally_30_pic.png"
             alt=""
           />
-        </div>
+        </a>
       </div>
     </header>
     <div class="visible_Range">
@@ -70,33 +74,33 @@
           <div class="nav_Bg img">
             <img src="img/index/nav_BG.svg" alt="nav_bg" />
             <div class="nav_Control">
-              <div class="logo img">
+              <a href="member_index.html" class="logo img">
                 <img src="img/index/logo.svg" alt="LOGO" />
-              </div>
-              <button class="b_Index">
+              </a>
+              <a href="member_index.html" class="b_Index">
                 <i class="fa-solid fa-house fa-2xl"></i>
                 <p>首頁</p>
-              </button>
-              <button class="b_Personal">
+              </a>
+              <a href="personal.html" class="b_Personal">
                 <i class="fa-solid fa-address-card fa-2xl"></i>
                 <p>個人紀錄</p>
-              </button>
-              <button class="b_Competition">
+              </a>
+              <a href="competition.html" class="b_Competition">
                 <i class="fa-solid fa-crown fa-2xl"></i>
                 <p>團隊競賽</p>
-              </button>
-              <button class="b_Together">
+              </a>
+              <a href="#" class="b_Together">
                 <i class="fa-solid fa-users fa-2xl"></i>
                 <p>揪團動動</p>
-              </button>
-              <button class="b_Cookbook">
+              </a>
+              <a href="#" class="b_Cookbook">
                 <i class="fa-solid fa-kitchen-set fa-2xl"></i>
                 <p>健康食譜</p>
-              </button>
-              <button class="b_Sportmenu">
+              </a>
+              <a href="#" class="b_Sportmenu">
                 <i class="fa-solid fa-dumbbell fa-2xl"></i>
                 <p>運動菜單</p>
-              </button>
+              </a>
             </div>
           </div>
         </nav>
@@ -104,10 +108,34 @@
       <main class="main">
         <div class="member_Index">
           <div class="personal_Data">
-            <img src="img/index/INTRO_personal_cal_img.svg" alt="cal" />
-            <img src="img/index/INTRO_personal_sleep_img.svg" alt="sleep" />
-            <img src="img/index/INTRO_personal_sport_img.svg" alt="sport" />
-            <img src="img/index/INTRO_personal_step_img.svg" alt="step" />
+            <div class="personal_Sleep">
+              <div class="sleep_Text">
+                <p><span>6</span>hr<span>40</span>min</p>
+              </div>
+              <img src="img/personal/personal_Sleep.svg" alt="今日睡眠紀錄" />
+            </div>
+            <div class="personal_Step">
+              <div class="step_Text"><span>5400</span></div>
+              <img src="img/personal/personal_Step.svg" alt="今日步數紀錄" />
+            </div>
+            <div class="personal_Sport">
+              <div class="sport_Text">
+                <p><span>0</span>hr<span>40</span>min</p>
+              </div>
+              <img
+                src="img/personal/personal_Sport.svg"
+                alt="今日運動時間紀錄"
+              />
+            </div>
+            <div class="personal__Cal">
+              <div class="cal_Text">
+                <p><span>1316</span>cal</p>
+              </div>
+              <img
+                src="img/personal/personal__Cal.svg"
+                alt="今日消耗卡路里紀錄"
+              />
+            </div>
           </div>
           <div class="together_Invite">
             <div class="invite_Bg">
@@ -358,8 +386,7 @@
     <footer class="footer">
       <p>
         本網站為緯育TibaMe前端工程師第102期學員專題作品，僅供學習、展示之用。
-        若有侵權疑慮，請私訊
-        [TibaMe-前端設計工程師養成班]，後續由專人協助處理。
+        若有侵權疑慮，請私訊 [TibaMe-前端設計工程師養成班]，後續由專人協助處理。
         <br />2023 © All rights reserved
       </p>
     </footer>

@@ -1,0 +1,456 @@
+.b_Personal {
+  background-color: #eff3f6;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+.b_Personal p {
+  color: #6ec1c5;
+}
+.b_Personal i {
+  color: #6ec1c5;
+}
+/*#region personal_Data*/
+.personal_Data_Group {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+.personal_Data {
+  width: 325px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.personal_Data img {
+  box-sizing: border-box;
+  margin: auto;
+}
+.personal_Sleep,
+.personal_Step,
+.personal_Sport,
+.personal__Cal {
+  background: rgba(255, 255, 255, 0.7);
+  height: 152px;
+  width: 152px;
+  position: relative;
+  margin: 5px;
+}
+.personal_Data p{
+  font-size: 14px;
+  font-weight: bold;
+  color: #706c65;
+}
+.personal_Data span{
+  font-size: 20px;
+  font-weight: bold;
+  color: #706c65;
+}
+.sleep_Text {
+  position: absolute;
+  top: 33px;
+    left: 38px;
+}
+.step_Text {
+  position: absolute;
+  top: 55px;
+    left: 54px;
+}
+.sport_Text {
+  position: absolute;
+  top: 49px;
+    left: 37px;
+}
+.cal_Text {
+  position: absolute;
+  top: 46px;
+  left: 42px;
+}
+.personal_Calendar {
+  margin: 5px;
+}
+/*#endregion personal_Data*/
+/*#region personal_Summary*/
+.personal_Summary {
+  box-sizing: border-box;
+  margin: auto;
+  width: 689px;
+  height: 296px;
+  background: #6ec1c5;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  position: relative;
+  margin-bottom: 20px;
+}
+.summary_column {
+  position: absolute;
+  top: 55px;
+  left: 10px;
+  margin: auto;
+  width: 667px;
+  height: 230px;
+  background: #ffffff;
+  border-radius: 0px 0px 20px 20px;
+}
+.summary_column img {
+  position: absolute;
+  top: 43px;
+  left: 10px;
+}
+.personal_Summary select {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.9);
+  top: 10px;
+  left: 10px;
+  border: 1px solid #6ec1c5;
+  color: #1f849b;
+  width: 170px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bolder;
+  height: 28px;
+  border-radius: 14px;
+}
+.personal_Summary select:focus {
+  outline: 1px solid #1f849b;
+}
+.data_interval {
+  position: absolute;
+  top: 10px;
+  left: 526px;
+  display: flex;
+  font-size: 14px;
+  font-weight: bolder;
+}
+.data_interval button {
+  border: none;
+  height: 28px;
+  width: 50px;
+  background: rgba(255, 255, 255, 0.9);
+  color: #1f849b;
+  font-size: 14px;
+  font-weight: bolder;
+}
+.data_interval button:hover {
+  background: rgba(255, 255, 255, 0.7);
+}
+.data_interval button:focus {
+  background: rgba(31, 132, 155, 0.7);
+  color: #fff;
+}
+/*#endregion personal_Summary*/
+/*#region personal_Fooddata*/
+.personal_Fooddata {
+  box-sizing: border-box;
+  margin: auto;
+  width: 670px;
+  height: 500px;
+  background: rgba(255, 255, 255, 0.7);
+  position: relative;
+}
+.food_Group {
+  display: flex;
+  padding: 10px;
+}
+.food_Text {
+  display: flex;
+  align-items: center;
+}
+.food_Text h3 {
+  color: #5ba7dd;
+}
+.food_Text p {
+  line-height: 48px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #706c65;
+  padding: 0 5px;
+}
+.food_Text span {
+  font-size: 20px;
+  font-weight: bold;
+  color: #706c65;
+}
+.food_Function {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  padding: 5px;
+}
+.food_Function button {
+  margin: 0 5px;
+  height: 30px;
+  width: 30px;
+  border: 1px solid #d0d0d0;
+  border-radius: 8px;
+  color: #d0d0d0;
+}
+.food_Function button:hover {
+  border: 1px solid #5ba7dd;
+  color: #5ba7dd;
+}
+.input_Search {
+  margin: 0 5px;
+  position: relative;
+}
+.input_Search input {
+  height: 28px;
+  border-radius: 14px;
+  border: 1px solid #d0d0d0;
+  background-color: #f5f5f5;
+  padding: 0 0 0 10px;
+}
+.input_Search input:hover {
+  height: 28px;
+  border-radius: 14px;
+  border: 1px solid #d0d0d0;
+}
+.input_Search i {
+  color: #d0d0d0;
+  position: absolute;
+  top: 13px;
+  left: 150px;
+}
+.input_Search input:focus {
+  outline: none;
+  border: 1px solid #5ba7dd;
+}
+.food_Data {
+  font-family: "Noto Sans", "Bodoni Moda";
+  width: 640px;
+  margin: auto;
+  font-size: 14px;
+}
+th {
+  background-color: rgba(91, 167, 221, 0.7);
+  color: #ffffff;
+  height: 35px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+td {
+  height: 35px;
+  text-align: center;
+}
+td:nth-child(1) {
+  margin: auto;
+  text-align: center;
+  padding: 3px;
+}
+td:nth-child(2) {
+  width: 70px;
+  text-align: left;
+  padding: 0 0 0 6px;
+}
+td:nth-child(3) {
+  width: 200px;
+  text-align: left;
+  padding: 0 0 0 6px;
+}
+td:nth-child(4) {
+  width: 100px;
+}
+td:nth-child(5) {
+  width: 100px;
+}
+td:nth-child(6) {
+  width: 100px;
+}
+tr {
+  border-bottom: 1px solid #dddddd;
+}
+tr:last-of-type {
+  border-bottom: 2px solid #5ba7dd;
+}
+tr:nth-of-type(even) td {
+  background-color: rgba(91, 167, 221, 0.08);
+}
+tr:hover td {
+  background-color: #cce4f5;
+  transition: all 0.3s ease-in-out;
+}
+tr:hover td:first-child {
+  color: #949393;
+  border-left: 5px solid #5ba7dd;
+  transition: all 0.3s ease-in-out;
+}
+.food_Footer {
+  box-sizing: border-box;
+  display: flex;
+  height: 45px;
+  justify-content: space-between;
+}
+.note {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+  line-height: 34px;
+}
+.food_Page {
+  display: flex;
+}
+.food_Blue p,
+.food_Yellow p,
+.food_Red p,
+.food_Green p {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  height: 24px;
+}
+.food_Blue,
+.food_Yellow,
+.food_Red,
+.food_Green {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  margin: 0 2px 0 10px;
+}
+
+.food_Blue {
+  background-color: #5ba7dd;
+}
+.food_Yellow {
+  background-color: #fedea7;
+}
+.food_Red {
+  background-color: #f09b95;
+}
+.food_Green {
+  background-color: #7cd1d6;
+}
+.food_Page {
+  text-align: center;
+  margin: 0 20px 0 0;
+}
+.food_Page button {
+  background-color: transparent;
+  border: none;
+  margin: 0 4px 15px 0;
+}
+.food_Page span {
+  margin: 10px;
+}
+.food_Page button:nth-child(4) {
+  width: 28px;
+  height: 28px;
+  background-color: #cce4f5;
+  border-radius: 2px;
+  margin: 3px 0 0 0;
+}
+/*#endregion personal_Fooddata*/
+/*#region aside*/
+.aside {
+  width: 330px;
+  height: 762px;
+  box-sizing: border-box;
+  position: sticky;
+  top: 50px;
+  z-index: 99;
+}
+.personal_Info,
+.competition,
+.md {
+  margin-right: 20px;
+  margin-top: 20px;
+  width: 280px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 20px;
+  text-align: center;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.personal_Info h3,
+.competition h3 {
+  color: #6ec1c5;
+  margin: 5px;
+}
+.info_Group {
+  display: flex;
+  justify-content: center;
+}
+.info {
+  background: rgba(237, 245, 234, 0.6);
+  border: 1px solid #6ec1c5;
+  border-radius: 5px;
+  width: 78px;
+  box-sizing: border-box;
+  padding: 5px;
+  margin: 10px 5px;
+}
+.competition_Group {
+  display: flex;
+  justify-content: center;
+}
+.member_Group {
+  box-sizing: border-box;
+  padding: 5px;
+  border-radius: 5px;
+}
+.member01,
+.member02,
+.member03 {
+  display: flex;
+  margin: 6px;
+  align-items: center;
+}
+.member01 img,
+.member02 img,
+.member03 img {
+  margin-right: 5px;
+}
+.member01_Num {
+  font-size: 30px;
+  font-weight: bold;
+}
+.member01_Num span {
+  font-size: 20px;
+  font-weight: bold;
+}
+.member_Num {
+  font-size: 14px;
+  font-weight: bold;
+}
+.member_Num span {
+  font-size: 12px;
+  font-weight: bold;
+}
+.member03 p,
+.member03 span {
+  color: #f09b95;
+}
+.competition_a {
+  width: 160px;
+  height: 25px;
+  margin: auto;
+  margin-bottom: 10px;
+  background-color: #6ec1c5;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  cursor: pointer;
+}
+.competition_a a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}
+.competition_a i {
+  line-height: 25px;
+  padding: 0 0 0 3px;
+}
+.competition_a:hover {
+  background-color: #ffffff;
+}
+.competition_a:hover a {
+  color: #6ec1c5;
+}
+.md img {
+  margin: auto;
+  box-sizing: border-box;
+  padding: 10px 0px;
+}
+/*#endregion aside*/

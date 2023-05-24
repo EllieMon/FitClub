@@ -1,0 +1,238 @@
+.visible_Range {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+}
+.big_shadow {
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.3));
+}
+.member_shadow {
+  filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.8));
+}
+img {
+  display: block;
+}
+
+/*#region header*/
+header {
+  width: 1200px;
+  box-sizing: border-box;
+  height: 51px;
+  margin: auto;
+  display: flex;
+  justify-content: right;
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+}
+.header_group {
+  width: 1280px;
+  width: 195px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  padding: 0 20px 0 0;
+}
+.header_group i {
+  font-size: 22px;
+  margin-top: 10px;
+}
+.header_group button {
+  width: 32px;
+  height: 32px;
+  border: none;
+  background-color: #fff;
+  border-radius: 16px;
+  cursor: pointer;
+  filter: drop-shadow(0px 0px 3px #7e9fac);
+}
+.b_Login {
+  cursor: pointer;
+  position: relative;
+}
+.b_Login_Bg {
+  background-color: #6ec1c5;
+  border-radius: 0 0 10px 10px;
+  width: 59px;
+  height: 51px;
+}
+.b_Login img {
+  font-size: 30px;
+  position: absolute;
+  margin-top: -40px;
+  margin-left: 14px;
+}
+.b_Setting .fa-gear {
+  color: #6ec1c5;
+}
+.b_System_info .fa-bell {
+  color: #6ec1c5;
+}
+.b_Message .fa-comment-dots {
+  color: #6ec1c5;
+}
+.b_Login .fa-circle-user {
+  color: #ffffff;
+}
+.b_System_info:hover,
+.b_Setting:hover,
+.b_Message:hover {
+  background-color: #6ec1c5;
+}
+.b_Login:hover .b_Login_Bg {
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+.b_Message:hover .fa-comment-dots {
+  color: #fff;
+}
+.b_System_info:hover .fa-bell {
+  color: #fff;
+}
+.b_Setting:hover .fa-gear {
+  color: #fff;
+}
+.b_Login:hover .fa-circle-user {
+  color: #6ec1c5;
+}
+/*#endregion header*/
+/*#region nav*/
+.nav_Group {
+  box-sizing: border-box;
+  width: 180px;
+  height: 762px;
+  position: sticky;
+  top: 50px;
+  z-index: 99;
+}
+.nav_Bg {
+  width: 124px;
+  margin: 0 0 0 28px;
+  position: relative;
+}
+.nav_Control {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -635px;
+  margin-left: 18px;
+}
+.logo {
+  margin: 0 0 30px 0;
+  cursor: pointer;
+}
+.b_Index,
+.b_Personal,
+.b_Competition,
+.b_Together,
+.b_Cookbook,
+.b_Sportmenu {
+  height: 70px;
+  width: 70px;
+  background-color: #6ec1c5;
+  border: none;
+  margin: 10px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+.b_Index i,
+.b_Personal i,
+.b_Competition i,
+.b_Together i,
+.b_Cookbook i,
+.b_Sportmenu i {
+  display: block;
+  height: 20px;
+  width: 40px;
+  margin: auto;
+  margin-top: 25px;
+}
+.b_Index p,
+.b_Personal p,
+.b_Competition p,
+.b_Together p,
+.b_Cookbook p,
+.b_Sportmenu p {
+  color: #fff;
+}
+.fa-house,
+.fa-address-card,
+.fa-crown,
+.fa-users,
+.fa-kitchen-set,
+.fa-dumbbell {
+  color: #ffff;
+}
+.b_Index:hover,
+.b_Personal:hover,
+.b_Competition:hover,
+.b_Together:hover,
+.b_Cookbook:hover,
+.b_Sportmenu:hover {
+  background-color: #5ea1a5;
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+}
+.b_Index:hover p,
+.b_Personal:hover p,
+.b_Competition:hover p,
+.b_Together:hover p,
+.b_Cookbook:hover p,
+.b_Sportmenu:hover p {
+  color: #fff;
+}
+.b_Index:hover i,
+.b_Personal:hover i,
+.b_Competition:hover i,
+.b_Together:hover i,
+.b_Cookbook:hover i,
+.b_Sportmenu:hover i {
+  color: #fff;
+}
+.b_Index:focus,
+.b_Personal:focus,
+.b_Competition:focus,
+.b_Together:focus,
+.b_Cookbook:focus,
+.b_Sportmenu:focus {
+  background-color: #eff3f6;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+.b_Index:focus p,
+.b_Personal:focus p,
+.b_Competition:focus p,
+.b_Together:focus p,
+.b_Cookbook:focus p,
+.b_Sportmenu:focus p {
+  color: #6ec1c5;
+}
+.b_Index:focus i,
+.b_Personal:focus i,
+.b_Competition:focus i,
+.b_Together:focus i,
+.b_Cookbook:focus i,
+.b_Sportmenu:focus i {
+  color: #6ec1c5;
+}
+/*#endregion nav*/
+.main {
+  width: 100%;
+  padding: 20px 0px 0px 0px;
+  box-sizing: border-box;
+}
+
+/*#region footer*/
+.footer {
+  margin: auto;
+  padding: 30px 0 5px 0;
+}
+.footer p {
+  text-align: center;
+  font-size: 12px;
+  color: #706c65;
+}
+/*#endregion footer*/

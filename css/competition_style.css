@@ -1,0 +1,77 @@
+.b_Competition {
+  background-color: #eff3f6;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+.b_Competition p {
+  color: #6ec1c5;
+}
+.b_Competition i {
+  color: #6ec1c5;
+}
+.main{
+    padding: 0;
+}
+.competition_menu {
+  box-sizing: border-box;
+  width: 225px;
+  height: 56px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+.competition_menu button {
+  box-sizing: border-box;
+  border: none;
+  background-color: transparent;
+  margin: 8px;
+  line-height: 28px;
+}
+.create  h3{
+    color: #6ec1c5;
+    border-bottom: 2px solid #6ec1c5;
+}
+.info h3{
+    color: #D0D0D0;
+}
+.info h3:hover{
+    color: #fff;
+    background-color: #6ec1c5;
+    border-radius: 5px;
+    transition: all 0.8s ease-in-out;
+}
+/* BUG 查的到無法作用 */
+.info h3:focus{
+    color: #6ec1c5;
+    background-color: transparent;
+    border-radius: 0px;
+    border-bottom: 2px solid #6ec1c5;
+}
+.competition_Group {
+  box-sizing: border-box;
+  margin: 40px;
+  position: relative;
+
+}
+.competition_Bg img {
+  width: 100%;
+}
+.competition_Creation {
+  position: absolute;
+  top: -10px;
+  left: 274px;
+  width: 407px;
+  height: 516px;
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+}
+.competition_Main_Decorate {
+  position: absolute;
+  top: 312px;
+  left: 10px;
+  width: 100%;
+}
+.footer{
+  margin: 250px 0 0 0;
+}

@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/h.f.n_style.css" />
+    <link rel="stylesheet" href="css/personal_style.css" />
+    <title>FitClub_一個關心你健康的平台</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        width: 100%;
+        font-family: "Noto Sans", "Bodoni Moda";
+        background: url(/img/personal/personal_BG_Img.svg);
+        background-position: top;
+        background-size: 1920px;
+        background-repeat: no-repeat;
+      }
+      h1 {
+        font-size: 35px;
+        font-weight: bold;
+      }
+      h2 {
+        font-size: 30px;
+        font-weight: bold;
+      }
+      h3 {
+        font-size: 20px;
+        font-weight: bold;
+      }
+      p {
+        font-size: 14px;
+        color: #706c65;
+      }
+      span {
+        font-size: 14px;
+        color: #706c65;
+      }
+    </style>
+  </head>
+  <body background="img/member_index/Member_index_Bg_img.svg">
+    <header class="header">
+      <div class="header_group">
+        <button class="b_Message">
+          <i class="fa-solid fa-comment-dots fa-lg"></i>
+        </button>
+        <button class="b_System_info">
+          <i class="fa-solid fa-bell fa-lg"></i>
+        </button>
+        <button class="b_Setting">
+          <i class="fa-solid fa-gear fa-lg"></i>
+        </button>
+        <a href="index.html" class="b_Login">
+          <div class="b_Login_Bg pic"></div>
+          <img
+            class="member_shadow"
+            src="img/member_index/competition_Sally_30_pic.png"
+            alt=""
+          />
+        </a>
+      </div>
+    </header>
+    <div class="visible_Range">
+      <nav class="nav_Group">
+        <nav class="nav">
+          <div class="nav_Bg img">
+            <img src="img/index/nav_BG.svg" alt="nav_bg" />
+            <div class="nav_Control">
+              <a href="member_index.html" class="logo img">
+                <img src="img/index/logo.svg" alt="LOGO" />
+              </a>
+              <a href="member_index.html" class="b_Index">
+                <i class="fa-solid fa-house fa-2xl"></i>
+                <p>首頁</p>
+              </a>
+              <a href="personal.html" class="b_Personal">
+                <i class="fa-solid fa-address-card fa-2xl"></i>
+                <p>個人紀錄</p>
+              </a>
+              <a href="competition.html" class="b_Competition">
+                <i class="fa-solid fa-crown fa-2xl"></i>
+                <p>團隊競賽</p>
+              </a>
+              <a href="#" class="b_Together">
+                <i class="fa-solid fa-users fa-2xl"></i>
+                <p>揪團動動</p>
+              </a>
+              <a href="#" class="b_Cookbook">
+                <i class="fa-solid fa-kitchen-set fa-2xl"></i>
+                <p>健康食譜</p>
+              </a>
+              <a href="#" class="b_Sportmenu">
+                <i class="fa-solid fa-dumbbell fa-2xl"></i>
+                <p>運動菜單</p>
+              </a>
+            </div>
+          </div>
+        </nav>
+      </nav>
+      <main class="main">
+        <section class="personal_Group">
+          <div class="personal_Data_Group">
+            <div class="personal_Data">
+              <div class="personal_Sleep">
+                <div class="sleep_Text">
+                  <p><span>6</span>hr<span>40</span>min</p>
+                </div>
+                <img src="img/personal/personal_Sleep.svg" alt="今日睡眠紀錄" />
+              </div>
+              <div class="personal_Step">
+                <div class="step_Text"><span>5400</span></div>
+                <img src="img/personal/personal_Step.svg" alt="今日步數紀錄" />
+              </div>
+              <div class="personal_Sport">
+                <div class="sport_Text">
+                  <p><span>0</span>hr<span>40</span>min</p>
+                </div>
+                <img
+                  src="img/personal/personal_Sport.svg"
+                  alt="今日運動時間紀錄"
+                />
+              </div>
+              <div class="personal__Cal">
+                <div class="cal_Text">
+                  <p><span>1316</span>cal</p>
+                </div>
+                <img
+                  src="img/personal/personal__Cal.svg"
+                  alt="今日消耗卡路里紀錄"
+                />
+              </div>
+            </div>
+            <div class="personal_Calendar">
+              <img src="img/member_index/calendar.svg" alt="" />
+            </div>
+          </div>
+          <div class="personal_Summary">
+            <select name="資料類型" id="">
+              <option value="">睡眠時間</option>
+              <option value="">步數</option>
+              <option value="">運動分鐘數</option>
+              <option value="">消耗卡路里</option>
+              <option value="">體重</option>
+              <option value="">體脂率</option>
+              <option value="">基礎代謝</option>
+              <option value="">皮下脂肪率</option>
+              <option value="">骨骼肌率</option>
+              <option value="">BMI</option>
+            </select>
+            <div class="data_interval">
+              <button>月</button>
+              <button>雙周</button>
+              <button>單周</button>
+            </div>
+            <div class="summary_column">
+              <img src="img/personal/personal_Summary.svg" alt="" />
+            </div>
+          </div>
+          <div class="personal_Fooddata">
+            <div class="food_Group">
+              <div class="food_Text">
+                <h3>飲食日記</h3>
+                <p>今日已攝取<span>1614</span>cal</p>
+              </div>
+              <div class="food_Function">
+                <button class="food_Add">
+                  <i class="fa-solid fa-plus fa-xl"></i>
+                </button>
+                <button class="food_Edit">
+                  <i class="fa-solid fa-pen fa-lg"></i>
+                </button>
+                <div class="input_Search">
+                  <input type="search" />
+                  <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+                </div>
+              </div>
+            </div>
+            <table class="food_Data">
+              <thead>
+                <th colspan="2">日期</th>
+                <th>餐點</th>
+                <th>卡路里</th>
+                <th>脂肪</th>
+                <th>蛋白質</th>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <img src="img/personal/personal_Breakfast.svg" alt="" />
+                  </td>
+                  <td>2023/4/21</td>
+                  <td>鮪魚蛋吐司</td>
+                  <td>308</td>
+                  <td>11.59</td>
+                  <td>18.83</td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="img/personal/personal_Lunch.svg" alt="" />
+                  </td>
+                  <td>2023/4/21</td>
+                  <td>炒牛肉河粉</td>
+                  <td>354</td>
+                  <td>11.38</td>
+                  <td>18.83</td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="img/personal/personal_Lunch.svg" alt="" />
+                  </td>
+                  <td>2023/4/21</td>
+                  <td>荷包蛋</td>
+                  <td>146</td>
+                  <td>9.9</td>
+                  <td>12.53</td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="img/personal/personal_Lunch.svg" alt="" />
+                  </td>
+                  <td>2023/4/21</td>
+                  <td>涼拌黑木耳</td>
+                  <td>58</td>
+                  <td>2.25</td>
+                  <td>1.68</td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="img/personal/personal_Dinner.svg" alt="" />
+                  </td>
+                  <td>2023/4/21</td>
+                  <td>舒肥雞胸健康餐盒(711)</td>
+                  <td>495</td>
+                  <td>17</td>
+                  <td>29</td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="img/personal/personal_Dinner.svg" alt="" />
+                  </td>
+                  <td>2023/4/21</td>
+                  <td>綠茶(麥香)</td>
+                  <td>28</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="img/personal/personal_Dessert.svg" alt="" />
+                  </td>
+                  <td>2023/4/21</td>
+                  <td>布丁(統一)</td>
+                  <td>110</td>
+                  <td>3</td>
+                  <td>2.1</td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="img/personal/personal_Dessert.svg" alt="" />
+                  </td>
+                  <td>2023/4/21</td>
+                  <td>義式香草雞胸肉(卜蜂)</td>
+                  <td>131</td>
+                  <td>3.4</td>
+                  <td>23</td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="food_Footer">
+              <div class="note">
+                <div class="food_Blue"></div>
+                <p>早餐</p>
+                <div class="food_Yellow"></div>
+                <p>午餐</p>
+                <div class="food_Red"></div>
+                <p>晚餐</p>
+                <div class="food_Green"></div>
+                <p>零食/消夜</p>
+              </div>
+              <div class="food_Page">
+                <button><i class="fa-solid fa-chevron-left fa-sm"></i></button>
+                <button><span>1</span></button>
+                <button><span>2</span></button>
+                <button><span>3</span></button>
+                <button><span>4</span></button>
+                <button><span>5</span></button>
+                <button><i class="fa-solid fa-chevron-right fa-sm"></i></button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <aside class="aside">
+        <div class="personal_Info">
+          <h3>Sally Huang</h3>
+          <p>2023/04/21</p>
+          <div class="info_Group">
+            <div class="info">
+              <p class="info_Text">體重</p>
+              <hr size="1px" align="center" width="100%" />
+              <p class="info_Num">58<span class="info_Unit">kg</span></p>
+            </div>
+            <div class="info">
+              <p class="info_Text">體脂率</p>
+              <hr size="1px" align="center" width="100%" />
+              <p class="info_Num">23<span class="info_Unit">%</span></p>
+            </div>
+            <div class="info">
+              <p class="info_Text">基礎代謝</p>
+              <hr size="1px" align="center" width="100%" />
+              <p class="info_Num">1280<span class="info_Unit">cal</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="competition">
+          <h3>團隊競賽</h3>
+          <p>截止日:2023/06/30<br />目標完成度</p>
+          <div class="competition_Group">
+            <div class="member01">
+              <img
+                class="member_shadow"
+                src="img/member_index/competition_headshot1_40_pic.png"
+                alt=""
+              />
+              <p class="member01_Num">94<span>%</span></p>
+            </div>
+            <div class="member_Group">
+              <div class="member02">
+                <img
+                  class="member_shadow"
+                  src="img/member_index/competition_Sally_30_pic.png"
+                  alt=""
+                />
+                <p class="member_Num">20<span>%</span></p>
+              </div>
+              <div class="member03">
+                <img
+                  class="member_shadow"
+                  src="img/member_index/competition_headshot3_30_pic.png"
+                  alt=""
+                />
+                <p class="member_Num">-15<span>%</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="competition_a">
+            <a href="#">
+              競賽頁面
+              <i
+                class="fa-solid fa-caret-right fa-lg"
+                style="color: #dbf0f1"
+              ></i>
+            </a>
+          </div>
+        </div>
+        <div class="md">
+          <div><img src="img/member_index/md_img.svg" alt="" /></div>
+        </div>
+      </aside>
+    </div>
+    <footer class="footer">
+      <p>
+        本網站為緯育TibaMe前端工程師第102期學員專題作品，僅供學習、展示之用。
+        若有侵權疑慮，請私訊 [TibaMe-前端設計工程師養成班]，後續由專人協助處理。
+        <br />2023 © All rights reserved
+      </p>
+    </footer>
+  </body>
+</html>

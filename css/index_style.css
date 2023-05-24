@@ -131,23 +131,23 @@ header {
   width: 70px;
   background-color: #6ec1c5;
   border: none;
-  margin: 2px;
+  margin: 10px;
   cursor: pointer;
+  text-align: center;
+  text-decoration: none;
 }
 .b_Index i,
 .b_Cookbook i,
 .b_Sportmenu i {
   display: block;
+  height: 20px;
   width: 40px;
-  height: 30px;
-  line-height: 30px;
   margin: auto;
+  margin-top: 25px;
 }
 .b_Index p,
 .b_Cookbook p,
 .b_Sportmenu p {
-  display: block;
-  padding: 3px 0 0 0;
   color: #fff;
 }
 .fa-house,
@@ -158,19 +158,19 @@ header {
 .b_Index:hover,
 .b_Cookbook:hover,
 .b_Sportmenu:hover{
-  background-color: #EFF3F6;
+  background-color: #5ea1a5;
   border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
 }
 .b_Index:hover p,
 .b_Cookbook:hover p,
 .b_Sportmenu:hover p{
-  color: #6ec1c5;
+  color: #fff;
 }
 .b_Index:hover i,
 .b_Cookbook:hover i,
 .b_Sportmenu:hover i{
-  color: #6ec1c5;
+  color: #fff;
 }
 .b_Index:focus,
 .b_Cookbook:focus,
