@@ -9,12 +9,17 @@
 .b_Index i {
   color: #6ec1c5;
 }
+.main{
+  width: 732px;
+  box-sizing: border-box;
+  padding: 10px;
+}
 /*#region member_Index*/
 .member_Index {
   width: 100%;
   box-sizing: border-box;
   display: grid;
-  grid-template: 320px 430px / 366px 360px;
+  grid-template: 320px 430px / 345px 355px;
   gap: 5px;
 }
 .personal_Data {
@@ -176,8 +181,12 @@
 }
 /*#endregion together_Invite*/
 /*#region calendar*/
-.calendar {
-  margin: auto;
+.calendar{
+  box-sizing: border-box;
+  padding: 6px 0 0 0;
+}
+.calendar img{
+  width: 340px;
 }
 /* TODO 待尋找如何製作日歷 */
 /*#endregion calendar*/
@@ -267,9 +276,10 @@
 /*#endregion share_Article*/
 /*#region aside*/
 .aside {
-  width: 330px;
+  width: 288px;
   box-sizing: border-box;
   position: sticky;
+  margin-left: auto;
 }
 .personal_Info,
 .competition,

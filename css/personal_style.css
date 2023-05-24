@@ -9,6 +9,9 @@
 .b_Personal i {
   color: #6ec1c5;
 }
+.main{
+  width: 732px;
+}
 /*#region personal_Data*/
 .personal_Data_Group {
   box-sizing: border-box;
@@ -343,7 +346,7 @@ tr:hover td:first-child {
 /*#endregion personal_Fooddata*/
 /*#region aside*/
 .aside {
-  width: 330px;
+  width: 288px;
   height: 762px;
   box-sizing: border-box;
   position: sticky;
