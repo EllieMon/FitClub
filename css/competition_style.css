@@ -20,7 +20,7 @@
   border-radius: 10px;
   padding: 0px 10px;
   display: flex;
-  justify-content: space-around ;
+  justify-content: space-around;
   align-items: center;
 }
 .create h3 {
@@ -28,7 +28,7 @@
   border-bottom: 2px solid #6ec1c5;
 }
 .info,
-.create{
+.create {
   cursor: pointer;
 }
 .info h3 {
@@ -46,7 +46,7 @@
   transition: all 0.8s ease-in-out;
 }
 /* BUG 待確認focus */
-.info :focus h3{
+.info :focus h3 {
   color: #6ec1c5;
   transition: all 0.8s ease-in-out;
 }
@@ -59,6 +59,7 @@
   width: 100%;
 }
 .competition_Creation {
+  box-sizing: border-box;
   position: absolute;
   top: -54px;
   left: 274px;
@@ -67,12 +68,163 @@
   background: rgba(255, 255, 255, 0.7);
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
   border-radius: 20px;
+  text-align: left;
+  padding: 25px;
 }
-.competition_Main_Decorate {
+.competition_Creation p {
+  font-size: 16px;
+  color: #706c65;
+  font-weight: bold;
+}
+.team_Pic_In {
+  margin: auto;
+}
+.team_Pic_In p {
+  text-align: center;
+}
+.team_Pic_Add_In {
+  position: relative;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.team_Pic_Add_In img {
+  margin: auto;
+}
+.team_Pic_Add_In i {
   position: absolute;
-  top: 312px;
-  left: 10px;
-  width: 100%;
+  top: 37px;
+  left: 171px;
+}
+.team_Pic_Add_In:hover i{
+color: #706c65;
+}
+.team_Target_In input {
+  margin: 5px;
+}
+.team_Name_In input,
+.team_Start_In input,
+.team_End_In input {
+  width: 285px;
+}
+.team_Name_In input,
+.team_Start_In input,
+.team_End_In input,
+.team_Target_In input {
+  margin: 2px;
+  height: 26px;
+  box-sizing: border-box;
+}
+.team_Name_In,
+.team_Start_In,
+.team_End_In,
+.team_Target_Group1_In,
+.team_Target_Group2_In {
+  display: flex;
+  align-items: center;
+}
+.team_Target_Group1_In {
+  margin: 5px 0 0 0;
+}
+.team_Target_Group2_In {
+  padding: 0 0 0 38px;
+  margin: 0 0 10px 0;
+}
+.team_Info_In {
+  margin: 10px 0 0 0;
+}
+.team_Target_Group2_In select {
+  margin: 2px;
+  height: 26px;
+}
+.team_Target_Group2_In input {
+  padding: 2px;
+}
+.competition_Creation {
+  line-height: 25px;
+  color: #1f849b;
+  font-size: 14px;
+}
+.team_Member_In {
+  display: flex;
+  align-items: center;
+}
+.team_Member_Add {
+  box-sizing: border-box;
+  background-color: #706c65;
+  color: #D0D0D0;
+  opacity: 0.7;
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  text-align: center;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.team_Member_Add:hover {
+  background-color: #D0D0D0;
+  color: #706c65;
+}
+.competition_Group input {
+  border: 0.5px solid #6ec1c5;
+  color: #1f849b;
+}
+.competition_Group select {
+  border: 0.5px solid #6ec1c5;
+  color: #1f849b;
+  width: 170px;
+}
+.competition_Group textarea {
+  border: 0.5px solid #6ec1c5;
+  color: #1f849b;
+  padding:10px;
+}
+.competition_Group select:focus {
+  outline: 0.5px solid #1f849b;
+}
+.competition_Group input:focus {
+  outline: 0.5px solid #1f849b;
+}
+.competition_Group textarea:focus {
+  outline: 0.5px solid #1f849b;
+}
+.create_a {
+  width: 160px;
+  height: 25px;
+  margin: auto;
+  background-color: #6ec1c5;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  cursor: pointer;
+}
+.create_a a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}
+.create_a i {
+  line-height: 25px;
+  padding: 0 0 0 3px;
+}
+.create_a:hover {
+  background-color: #ffffff;
+}
+.create_a:hover a {
+  color: #6ec1c5;
+}
+.competition_Decorate_Left {
+  position: absolute;
+  top: 250px;
+  left: -26px;
+}
+.competition_Decorate_Right {
+  position: absolute;
+  top: 293px;
+  left: 647px;
+}
+.competition_Creation input{
+  padding: 0 0 0 5px;
 }
 .footer {
   margin: 250px 0 0 0;

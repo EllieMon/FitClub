@@ -19,7 +19,7 @@
       body {
         width: 100%;
         font-family: "Noto Sans", "Bodoni Moda";
-        background: url(.img/share_img/share_Bg_Img.svg);
+        background: url(./img/share_img/share_Bg_Img.svg);
         background-position: top;
         background-size: 1920px;
         background-repeat: no-repeat;
@@ -118,45 +118,115 @@
             />
           </div>
           <div class="competition_Creation">
-            <div>
+            <div class="team_Pic_In">
               <p>團隊頭貼</p>
-              <img src="img/share_img/pic_Icon.svg" alt="">
-              <i class="fa-solid fa-plus fa-xl"></i>
+              <div class="team_Pic_Add_In">
+                <img src="img/share_img/pic_Icon.svg" alt="" />
+                <i class="fa-solid fa-plus fa-xl"></i>
+              </div>
             </div>
-            <div>
+            <div class="team_Name_In">
               <p>團隊名稱</p>
               <input type="text" />
             </div>
-            <div>
+            <div class="team_Start_In">
               <p>開賽時間</p>
               <input type="datetime-local" />
             </div>
-            <div>
+            <div class="team_End_In">
               <p>結賽時間</p>
               <input type="datetime-local" />
             </div>
-            <div>
-              <p>目標訂定</p>
-              <input type="radio" /><input type="radio" />
-              <select name="" id="">
-                <option value=""></option>
-              </select>
-              <select name="" id="">
-                <option value=""></option>
-              </select>
-              <input type="number" min="1" max="100" />
+            <div class="team_Target_In">
+              <div class="team_Target_Group1_In">
+                <p>目標訂定</p>
+                <input
+                  type="radio"
+                  name="target"
+                  value="male"
+                />統一&nbsp;&nbsp;
+                <input type="radio" name="target" value="male" />個別
+              </div>
+              <div class="team_Target_Group2_In">
+                <select name="" id="" width="100" style="width: 100px">
+                  <option value="">--請選擇--</option>
+                  <option value="">睡眠時間</option>
+                  <option value="">步數</option>
+                  <option value="">運動分鐘數</option>
+                  <option value="">消耗卡路里</option>
+                  <option value="">體重</option>
+                  <option value="">體脂率</option>
+                  <option value="">皮下脂肪率</option>
+                  <option value="">骨骼肌率</option>
+                  <option value="">BMI</option>
+                </select>
+                <select name="" id="" width="80" style="width: 80px">
+                  <option value="">--請選擇--</option>
+                  <option value="">下降至</option>
+                  <option value="">增加至</option>
+                  <option value="">每天維持</option>
+                  <option value="">每周維持</option>
+                </select>
+                <input
+                  type="number"
+                  min="1"
+                  max="100"
+                  value="0"
+                  width="40"
+                  style="width: 40px"
+                />
+                <select name="" id="" width="80" style="width: 80px">
+                  <option value="">--請選擇--</option>
+                  <option value="">整數值</option>
+                  <option value="">%</option>
+                  <option value="">次數</option>
+                  <option value="">小時</option>
+                </select>
+              </div>
             </div>
-            <div>
+            <div class="team_Member_In">
               <p>加入隊員</p>
+              <div class="team_Member_Add">
+                <i class="fa-solid fa-plus fa-xl"></i>
+              </div>
+              <div class="member_shadow">
+                <img
+                  src="img/share_img/competition_headshot3_30_pic.png"
+                  alt=""
+                />
+              </div>
             </div>
-            <div>
+            <div class="team_Info_In">
               <p>相關說明</p>
-              <textarea name="" id="" cols="30" rows="10" maxlength="1000" style="resize:none;width:350px;height:100px;" placeholder="選填，例:補充規則、量測規定、獎懲規則...等。1000字內。"></textarea>
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                maxlength="1000"
+                style="resize: none; width: 355px; height: 100px"
+                placeholder="選填，例:補充規則、量測規定、獎懲規則...等。1000字內。"
+              ></textarea>
+            </div>
+            <div class="create_a">
+              <a href="#">
+                建立揪團
+                <i
+                  class="fa-solid fa-caret-right fa-lg"
+                  style="color: #dbf0f1"
+                ></i>
+              </a>
             </div>
           </div>
-          <div class="competition_Main_Decorate">
+          <div class="competition_Decorate_Left">
             <img
-              src="img/competition/competition_Main_Decorate_Img.svg"
+              src="img/competition/competition_Main_Decorate_Left_Img.svg"
+              alt=""
+            />
+          </div>
+          <div class="competition_Decorate_Right">
+            <img
+              src="img/competition/competition_Main_Decorate_Right_Img.svg"
               alt=""
             />
           </div>
