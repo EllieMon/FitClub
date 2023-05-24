@@ -19,7 +19,7 @@
       body {
         width: 100%;
         font-family: "Noto Sans", "Bodoni Moda";
-        background: url(./img/competition/competition_Bg_Img.svg);
+        background: url(./img/share_img/share_Bg_Img.svg);
         background-position: top;
         background-size: 1920px;
         background-repeat: no-repeat;
@@ -62,7 +62,7 @@
           <div class="b_Login_Bg pic"></div>
           <img
             class="member_shadow"
-            src="img/member_index/competition_Sally_30_pic.png"
+            src="img/share_img/competition_Sally_30_pic.png"
             alt=""
           />
         </a>
@@ -107,19 +107,59 @@
       </nav>
       <main class="main">
         <div class="competition_menu">
-          <button class="create"><h3>建立團隊</h3></button>
-          <button class="info"><h3>團隊資訊</h3></button>
+          <div class="create"><h3>建立團隊</h3></div>
+          <div class="info"><h3>團隊資訊</h3></div>
         </div>
         <div class="competition_Group">
-            <div class="competition_Bg">
-                <img src="img/competition/competition_Main_Decorate_Bg_Img.svg" alt="">
+          <div class="competition_Bg">
+            <img
+              src="img/competition/competition_Main_Decorate_Bg_Img.svg"
+              alt=""
+            />
+          </div>
+          <div class="competition_Creation">
+            <div>
+              <p>團隊頭貼</p>
+              <img src="img/share_img/pic_Icon.svg" alt="">
+              <i class="fa-solid fa-plus fa-xl"></i>
             </div>
-            <div class="competition_Creation">
-
+            <div>
+              <p>團隊名稱</p>
+              <input type="text" />
             </div>
-            <div class="competition_Main_Decorate">
-                <img src="img/competition/competition_Main_Decorate_Img.svg" alt="">
+            <div>
+              <p>開賽時間</p>
+              <input type="datetime-local" />
             </div>
+            <div>
+              <p>結賽時間</p>
+              <input type="datetime-local" />
+            </div>
+            <div>
+              <p>目標訂定</p>
+              <input type="radio" /><input type="radio" />
+              <select name="" id="">
+                <option value=""></option>
+              </select>
+              <select name="" id="">
+                <option value=""></option>
+              </select>
+              <input type="number" min="1" max="100" />
+            </div>
+            <div>
+              <p>加入隊員</p>
+            </div>
+            <div>
+              <p>相關說明</p>
+              <textarea name="" id="" cols="30" rows="10" maxlength="1000" style="resize:none;width:350px;height:100px;" placeholder="選填，例:補充規則、量測規定、獎懲規則...等。1000字內。"></textarea>
+            </div>
+          </div>
+          <div class="competition_Main_Decorate">
+            <img
+              src="img/competition/competition_Main_Decorate_Img.svg"
+              alt=""
+            />
+          </div>
         </div>
         <footer class="footer">
           <p>
