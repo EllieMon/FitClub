@@ -156,9 +156,13 @@ color: #706c65;
   width: 24px;
   height: 24px;
   border-radius: 4px;
-  text-align: center;
   margin: 0 10px;
   cursor: pointer;
+}
+.team_Member_Add i{
+  /* line-height: 24px;
+  text-align: center; */
+  padding: 3.5px;
 }
 .team_Member_Add:hover {
   background-color: #D0D0D0;
@@ -174,6 +178,7 @@ color: #706c65;
   width: 170px;
 }
 .competition_Group textarea {
+  box-sizing: border-box;
   border: 0.5px solid #6ec1c5;
   color: #1f849b;
   padding:10px;
