@@ -2,7 +2,7 @@
   width: 1200px;
   margin: auto;
   display: flex;
-  background: url(/img/index/BG_line.svg);
+  background: url(../img/index/BG_line.svg);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: left;
